@@ -1,0 +1,33 @@
+body {
+    background-image: url(imagens/ceu.jpg);
+    background-size: cover;
+}
+
+#box {
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(0, 0, 0);
+    box-shadow: 15px 15px 15px rgb(85, 85, 85);
+    border-image:
+        linear-gradient(to bottom,
+            rgb(55, 0, 255),
+             rgb(255, 0, 0)) 1 10
+}
+
+#vento {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+}
+
+#icone {
+    height: 150px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
